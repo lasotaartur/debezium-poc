@@ -1,7 +1,7 @@
-Demo debezium based on https://debezium.io/documentation/reference/stable/tutorial.html
+Demo debezium based on https://debezium.io/documentation/reference/stable/tutorial.html and https://github.com/debezium/debezium-examples/tree/main/tutorial
 
 Run:
-1. `cd mysql`
+1. `cd mysql` or `cd postgres`
 1. `docker-compose up -d`
 2. `sh register_connector.sh`
 3. `sh verify_connector.sh`
